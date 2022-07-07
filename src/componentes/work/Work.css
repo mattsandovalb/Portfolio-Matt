@@ -39,6 +39,10 @@
   width: 50%;
   height: 100%;
 }
+.work_img img{
+  width: 80%;
+  margin-top: 8%;
+}
 .button a{
   color: white;
   font-family: 'Roboto Condensed', sans-serif;

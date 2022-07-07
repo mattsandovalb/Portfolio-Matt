@@ -1,0 +1,40 @@
+.general_contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.contact_title {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+.contact_title h2 {
+  font-size: 5em;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+}
+.contact_title h3 {
+  font-size: 3em;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+}
+.contact_img {
+  margin-top: 5%;
+  width: 50%;
+  height: 100%;
+}
+.contact_img img {
+  width: 80%;
+}
+.contact_div{
+    
+    width: 100%;
+    height: 100%;
+}
+.contact_div a{
+    font-size: 30px;
+    margin-left: 10%;
+}
