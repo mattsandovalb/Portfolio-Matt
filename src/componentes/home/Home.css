@@ -1,137 +1,132 @@
-
 /* GENERAL */
-.general_home{
-    width: 100%;
-    height: 100vh;
+.general_home {
+  width: 100%;
+  height: 100vh;
 }
-.home{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 /* ASIDE NAVIGATION */
-.aside{
-    width: 5%;
-    height: 100%;
-    position: fixed;
+.aside {
+  width: 5%;
+  height: 100%;
+  position: fixed;
 }
-.nav_dots{
+.nav_dots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+}
+.dot {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  display: flex;
+  border-radius: 25px;
+  margin-top: 5%;
+}
+.scroll_div {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.arrow {
+  color: white;
+  font-size: 80px;
+}
+.scroll_p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  bottom: 22%;
+  position: absolute;
+  bottom: 12%;
+  transform: rotate(90deg);
+}
+.general_title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title {
+  width: 47.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 8em;
+  width: 40%;
+  margin: 0;
+}
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+.decoration_one {
+  width: 10%;
+}
+.top {
+  width: 400%;
+  height: 20%;
+  border: none;
+  background-color: #ff8b8b;
+}
+.down {
+  width: 200%;
+  height: 20%;
+  border: none;
+  background-color: white;
+}
+.code {
+  width: 47.5%;
+  display: flex;
+  align-items: center;
+}
+.code p {
+  font-size: 40px;
+  margin-top: 50%;
+}
+@media (max-width: 767px) {
+  .general_title {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 90%;
-}
-.dot{
-    width: 25px;
-    height: 25px;
-    background-color: white;
-    display: flex;
-    border-radius: 25px;
-    margin-top: 5%;
-}
-.scroll_div{
-    width: 100%;
-    height: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.arrow{
-    color: white;
-    font-size: 80px;
-}
-.scroll_p{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    bottom: 22%;
-    position: absolute;
-    bottom: 12%;
-    transform: rotate(90deg);
-}
-
-.general_title{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.title{
-    width: 47.5%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10%;
-    margin-top: 10%;
-}
-h1{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-    color: white;
-    font-size: 8em;
+  }
+  .title {
+    margin-top: 60%;
     width: 40%;
-    margin: 0;
-}
-p{
-    font-family: 'Roboto Condensed', sans-serif;
-    color: white;
-    font-size: 30px;
-    margin: 0;
-}
-.decoration_one{
-    width: 10%;
-}
-.top{
-    width:400%;
-    height: 20%;
-    border: none;
-    background-color: #FF8B8B;
-}
-.down{
-    width: 200%;
-    height: 20%;
-    border: none;
-    background-color: white;
-}
-
-.code{
-    width: 47.5%;
-    display: flex;
-    align-items: center;
-}
-.code p{
-    font-size: 40px;
-    margin-top: 50%;
-}
-
-@media (max-width: 767px){
-    .general_title{
-        display: flex;
-        flex-direction: column;
-    }
-    .title{
-        margin-top: 60%;
-        width: 40%;
-    }
-    .title h1{
-        margin-top: 30%;
-        font-size: 90px;
-    }
-    .title p{
-        width: 300px;
-    }
-    .code{
-        margin-left: 80%;
-        margin-bottom:15%;
-    }
-    .nav_dots{
-        opacity: 0;
-    }
-    .arrow{
-        opacity: 0;
-    }
+  }
+  .title h1 {
+    margin-top: 30%;
+    font-size: 90px;
+  }
+  .title p {
+    width: 300px;
+  }
+  .code {
+    margin-left: 80%;
+    margin-bottom: 15%;
+  }
+  .nav_dots {
+    opacity: 0;
+  }
+  .arrow {
+    opacity: 0;
+  }
 }

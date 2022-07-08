@@ -29,59 +29,56 @@
 .contact_img img {
   width: 80%;
 }
-.contact_div{
-    
-    width: 100%;
-    height: 100%;
+.contact_div {
+  width: 100%;
+  height: 100%;
 }
-.contact_div a{
-    font-size: 30px;
-    margin-left: 10%;
+.contact_div a {
+  font-size: 30px;
+  margin-left: 10%;
 }
-
-
-@media (max-width: 767px){
-  .general_contact{
+@media (max-width: 767px) {
+  .general_contact {
     flex-direction: column;
     height: 100vh;
   }
-  .contact_title{
+  .contact_title {
     margin-top: 10%;
     width: 80%;
   }
-  .contact_title h2{
+  .contact_title h2 {
     font-size: 50px;
     margin: 0;
   }
-  .contact_title p{
+  .contact_title p {
     font-size: 20px;
   }
-  .contact_title h3{
+  .contact_title h3 {
     font-size: 30px;
   }
-  .decoration_one{
-    opacity:0;
+  .decoration_one {
+    opacity: 0;
   }
-  .button{
+  .button {
     width: 150%;
     height: 100%;
-    margin:  0;
+    margin: 0;
   }
-  .button button{
+  .button button {
     height: 100%;
   }
-  .button a{
+  .button a {
     font-size: 15px;
   }
-  .contact_img{
+  .contact_img {
     width: 100%;
   }
-  .contact_img img{
+  .contact_img img {
     width: 300px;
     margin-bottom: 70%;
     margin-left: 80%;
   }
-  .icon{
+  .icon {
     font-size: 25px;
   }
 }

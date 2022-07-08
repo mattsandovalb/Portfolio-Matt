@@ -11,7 +11,8 @@ function Work() {
             IN -K YOUR <br /> SKIN
           </h2>
           <p>
-          Take a look at my latest work, a modern and groundbreaking website for the trendy tattoo studio. Do not miss it.
+            Take a look at my latest work, a modern and groundbreaking website
+            for the trendy tattoo studio. Do not miss it.
           </p>
           <div className="decoration_one">
             <hr className="top" />

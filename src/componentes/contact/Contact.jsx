@@ -2,10 +2,7 @@ import React from "react";
 import "./Contact.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import img3 from "../../img/contact.jpg";
 
 function Contact() {
@@ -20,7 +17,7 @@ function Contact() {
             tempora tenetur quos veritatis! Eligendi cum et fugiat voluptatum
             culpa reiciendis quod repudiandae!
           </p>
-          
+
           <div className="decoration_one">
             <hr className="top" />
             <br />
