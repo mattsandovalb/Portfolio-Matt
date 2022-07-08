@@ -11,10 +11,7 @@ function Work() {
             IN -K YOUR <br /> SKIN
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-            quidem, nihil magnam consequatur ut deleniti veniam cupiditate
-            tempora tenetur quos veritatis! Eligendi cum et fugiat voluptatum
-            culpa reiciendis quod repudiandae!
+          Take a look at my latest work, a modern and groundbreaking website for the trendy tattoo studio. Do not miss it.
           </p>
           <div className="decoration_one">
             <hr className="top" />

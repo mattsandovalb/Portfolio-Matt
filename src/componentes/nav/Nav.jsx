@@ -3,6 +3,7 @@ import "./Nav.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 
 
 function Nav (){
@@ -18,7 +19,7 @@ function Nav (){
                     <a href="https://www.instagram.com/matt.sandovalb/"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
                 </div>
                 <div className="menu">
-                    <div className="menu_burger"></div>
+                <FontAwesomeIcon className="menu_burger" icon={faBars} />
                 </div>
             </div>
         </div>

@@ -37,10 +37,27 @@ body{
     align-items: center;
 }
 .menu_burger{
-    width: 10%;
-    height:10%;
-    background:#fff;
-    transition:all .5s ease-in-out;
+    color: white;
+    font-size: 40px;
+    margin-right: 10%;
+}
 
+
+@media (max-width: 767px){
+    .name {
+        width: 50%;
+    }
+    .social{
+        justify-content: space-around;
+    }
+    .menu_burger{
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 1023px){
+    .name {
+        width: 50%;
+    }
 }
 
